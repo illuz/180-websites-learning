@@ -1,0 +1,56 @@
+body {
+  background: #69ba1a;
+}
+
+.button-container {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.button-container .button {
+  background-color: #c92b56;
+  border-left: 1px solid #bb8d95;
+  border-top: 1px solid #bb8d95;
+  -moz-box-shadow: 1px 0 #792a44, 0 1px #792a44, 2px 1px #792a44, 1px 2px #792a44, 3px 2px #792a44, 2px 3px #792a44, 3px 3px 3px black;
+  -webkit-box-shadow: 1px 0 #792a44, 0 1px #792a44, 2px 1px #792a44, 1px 2px #792a44, 3px 2px #792a44, 2px 3px #792a44, 3px 3px 3px black;
+  box-shadow: 1px 0 #792a44, 0 1px #792a44, 2px 1px #792a44, 1px 2px #792a44, 3px 2px #792a44, 2px 3px #792a44, 3px 3px 3px black;
+  color: #f7f0f0;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #391b25;
+}
+
+footer {
+  background: rgba(134, 134, 134, 0.2);
+  bottom: 0;
+  font-family: Arial, sans-serif;
+  padding: 10px 20px;
+  position: absolute;
+}
+
+footer a {
+  color: #6e6e6e;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin: 0 10px;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: #3c3c3c;
+}
+
+footer a:hover {
+  color: #47904c;
+}
+
+footer .box-1 {
+  border-left: 16px solid #54ad41;
+}
+
+footer .box-2 {
+  border-left: 16px solid #1737e7;
+}

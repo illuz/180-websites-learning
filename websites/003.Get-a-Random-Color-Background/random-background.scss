@@ -1,0 +1,67 @@
+body {
+    background: rgb(105, 186, 26);
+}
+
+@mixin box-shadow($shadows...) {
+    -moz-box-shadow: $shadows;
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+}
+
+.button-container {
+    margin: 100px auto;
+    text-align: center;
+
+    .button {
+        background-color: rgb(201, 43, 86);
+        $white-edge: rgb(187, 141, 149);
+        border-left: 1px solid $white-edge;
+        border-top: 1px solid $white-edge;
+        $shadow-color: rgb(121, 42, 68);
+        @include box-shadow(
+            1px 0 $shadow-color, 0 1px $shadow-color,
+            2px 1px $shadow-color, 1px 2px $shadow-color,
+            3px 2px $shadow-color, 2px 3px $shadow-color,
+            3px 3px 3px black);
+        color: rgb(247, 240, 240);
+        font-family: sans-serif;
+        font-size: 30px;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-shadow: 1px 1px 2px rgb(57, 27, 37);
+    }
+}
+
+footer {
+    background: rgba(134, 134, 134, .2);
+    bottom: 0;
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    position: absolute;
+    
+    a {
+        color: rgb(110, 110, 110);
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin: 0 10px;
+        padding-left: 15px;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: rgb(60, 60, 60);
+    }
+    
+    a:hover {
+        color: rgb(71, 144, 76);
+    }
+    
+    .box-1 {
+        border-left: 16px solid rgb(84, 173, 65);
+    }
+    
+    .box-2 {
+        border-left: 16px solid rgb(23, 55, 231);
+    }
+}
+
