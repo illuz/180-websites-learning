@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(49, 55, 61);
+}
+
+.text-container {
+    color: rgb(235, 235, 235);
+    margin: 20px auto 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    
+    .title {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    
+    #hint {
+        line-height: 1.4;
+    }
+}
+
+@mixin door($color) {
+    .door-#{$color} {
+        border: solid $color;
+        color: $color;
+    }
+}
+
+.door-container {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: currentColor;
+    }    
+    
+    .door {
+        position: relative;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 50px 0;
+        margin: 0 30px;
+    }
+    
+    @include door(blue);
+    @include door(orange);
+    @include door(green);
+    
+    .choosed {
+        -moz-box-shadow:    10px 0px 10px 2px #161616;
+        -webkit-box-shadow: 10px 0px 10px 2px #161616;
+        box-shadow:         10px 0px 10px 2px #161616;
+    }
+}
+
+
+// final part
+
+.thing-container {
+    text-align: center;
+    color: rgb(235, 235, 235);
+    a:link, a:visited, a:hover, a:active {
+        color: rgb(218, 118, 56);
+    }
+}

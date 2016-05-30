@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #31373d;
+}
+
+.text-container {
+  color: #ebebeb;
+  margin: 20px auto 50px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.text-container .title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.text-container #hint {
+  line-height: 1.4;
+}
+
+.door-container {
+  text-align: center;
+}
+
+.door-container a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.door-container .door {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 50px 0;
+  margin: 0 30px;
+}
+
+.door-container .door-blue {
+  border: solid blue;
+  color: blue;
+}
+
+.door-container .door-orange {
+  border: solid orange;
+  color: orange;
+}
+
+.door-container .door-green {
+  border: solid green;
+  color: green;
+}
+
+.door-container .choosed {
+  -moz-box-shadow: 10px 0px 10px 2px #161616;
+  -webkit-box-shadow: 10px 0px 10px 2px #161616;
+  box-shadow: 10px 0px 10px 2px #161616;
+}
+
+.thing-container {
+  text-align: center;
+  color: #ebebeb;
+}
+
+.thing-container a:link, .thing-container a:visited, .thing-container a:hover, .thing-container a:active {
+  color: #da7638;
+}
