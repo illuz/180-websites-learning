@@ -1,0 +1,60 @@
+body {
+    background: rgb(240, 239, 231);
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header {
+    background: rgb(90, 23, 199);
+    width: 100%;
+    padding: 20px;
+    // z-index: 10;
+    
+    a {
+        float: left;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        margin-right: 20px;
+        // z-index: 10;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+.cat {
+    padding: 50px;
+    margin: 20px auto;
+    width: 200px;
+    background: rgb(220, 245, 69);
+    text-align: center;
+    font-size: 35px;
+}
+
+.text-container {
+    padding: 15px 20px;
+    margin: 40px auto;
+    width: 400px;
+    text-align: center;
+    
+    .message {
+        margin: 0;
+        font-size: 25px;
+    }
+    
+    .attribute {
+        margin: 0;
+        font-size: 15px;
+    }
+}
+
+
+.box-shadow,
+.text-shadow {
+    z-index: 10;
+}
+
+
