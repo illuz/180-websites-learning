@@ -1,0 +1,75 @@
+body {
+  background: #fcfaf2;
+  margin: 0 auto;
+  width: 900px;
+  letter-spacing: 1px;
+}
+
+.main-container {
+  position: relative;
+}
+
+.main-container .text-container {
+  float: left;
+  width: 250px;
+}
+
+.main-container .text-container .title {
+  font-size: 35px;
+}
+
+.main-container .text-container .text {
+  font-size: 25px;
+}
+
+.main-container .playground {
+  float: right;
+  width: 650px;
+  height: 700px;
+  text-align: center;
+}
+
+.main-container .playground .hint-container {
+  padding: 300px 10px 10px 0;
+}
+
+.main-container .playground .hint-container .hint-title {
+  font-size: 30px;
+}
+
+.main-container .playground .hint-container .hint-text {
+  font-size: 20px;
+}
+
+.main-container .playground .hint-container .replay {
+  font-size: 20px;
+}
+
+.main-container .playground .ball-container .ball {
+  background: #e37e2c;
+  border-radius: 50%;
+  height: 120px;
+  margin: 0 auto;
+  width: 120px;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #e37e2c;
+  padding: 15px;
+}
+
+footer a {
+  float: left;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin-right: 20px;
+}

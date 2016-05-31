@@ -1,0 +1,77 @@
+$base-color: rgb(227, 126, 44);
+
+body {
+    background: rgb(252, 250, 242);
+    margin: 0 auto;
+    width: 900px;
+    letter-spacing: 1px;
+    // position: relative;
+}
+
+.main-container {
+    position: relative;
+    .text-container {
+        float: left;
+        width: 250px;
+        .title {
+            font-size: 35px;
+        }
+        .text {
+            font-size: 25px;
+        }
+    }
+    .playground {
+        float: right;
+        width: 650px;
+        height: 700px;
+        text-align: center;
+        .hint-container {
+            // display: none;
+            // position: absolute;
+            // margin: 0 auto;
+            padding: 300px 10px 10px 0;
+            .hint-title {
+                font-size: 30px;
+            }
+            .hint-text {
+                font-size: 20px;
+            }
+            .replay {
+                font-size: 20px;
+            }
+        }
+        
+        .ball-container {
+            // display: none;
+            .ball {
+                background: $base-color;
+                border-radius: 50%;
+                height: 120px;
+                margin: 0 auto;
+                width: 120px;
+            }
+        }
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    // position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $base-color;
+    padding: 15px;
+    
+    a {
+        float: left;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+}
