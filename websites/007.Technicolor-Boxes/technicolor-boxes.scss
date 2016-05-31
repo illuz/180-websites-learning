@@ -1,0 +1,41 @@
+@mixin box-shadow($shadows...) {
+    -moz-box-shadow: $shadows;
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+.box-container {
+    width: 800px;
+    margin: 0 auto;
+    .box {
+        z-index: 1;
+        float: left;
+        width: 80px;
+        height: 80px;
+        background: rgb(73, 73, 73);
+        position: relative;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+    a {
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin: 0 10px;
+        text-decoration: none;
+        padding: 8px 10px;
+        @include box-shadow(-2px 2px 0 rgba(0, 0, 0, .3));
+    }
+}
+

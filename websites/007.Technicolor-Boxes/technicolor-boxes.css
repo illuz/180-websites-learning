@@ -1,0 +1,38 @@
+body {
+  background: black;
+}
+
+.box-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.box-container .box {
+  z-index: 1;
+  float: left;
+  width: 80px;
+  height: 80px;
+  background: #494949;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  text-align: center;
+  margin: 10px;
+}
+
+footer a {
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 8px 10px;
+  -moz-box-shadow: -2px 2px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -2px 2px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: -2px 2px 0 rgba(0, 0, 0, 0.3);
+}
